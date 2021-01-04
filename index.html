@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alondra J. Jacinto S.</title>
+    <!-- Favicons
+    ================================================== -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+
+    <script src="js/myjs.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Header -->
+    <header id="header">
+        <div class="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="intro-text">
+                        <h1>¡Hola! Yo soy <span class="name">Alondra</span></h1>
+                        <p>Bienvenido(a) a mi web personal</p>
+                        <a href="#about" class="btn btn-default btn-lg page-scroll">Ver m&aacute;s</a> </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Navigation -->
+    <div id="nav">
+        <nav class="navbar navbar-custom">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+                    <a class="navbar-brand page-scroll" href="#page-top">Alondra</a> </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li> <a class="page-scroll" href="#about">Sobre mi</a> </li>
+                        <li> <a class="page-scroll" href="#portfolio">Hobbies</a> </li>
+                        <li> <a class="page-scroll" href="#resume">Formaci&oacute;n</a> </li>
+                        <li> <a class="page-scroll" href="#contact">Ciptograf&iacute;a</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="section-title text-center center">
+                <h2>Sobre m&iacute;</h2>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center"><img src="img/photo_2020-09-29_21-54-17.jpg" class="img-responsive"></div>
+                <div class="col-md-8 col-md-offset-2">
+                    <div class="about-text">
+                        <p class="text-center">
+                            Mi nombre es Alondra Jacqueline Jacinto S&aacute;nchez,soy una estudiante de sexto semestre en Ingenier&iacute;a en Sistemas Computacionales en la Escuela Superior de C&oacute;mputo del Instituto Polit&eacute;cnico Nacional. Me apasionan las matem&aacute;ticas,
+                            la programaci&oacute;n y la criptograf&iacute;a. Me fascinan los gatitos.
+                        </p>
+                        <div class="text-center mail">
+                            <span class="hide-input" id="message">Correo copiado al portapapeles</span><br>
+                            <a onclick="myFunction()" onmouseout="outFunc()">
+                                <i class="fa fa-envelope"></i>
+                                <input type="text" id="myInput" value="ajacintos1400@alumno.ipn.mx" readonly>
+                            </a>
+                        </div>
+                        <div class="social text-center">
+                            <ul>
+                                <li><a href="https://www.facebook.com/4.ever.alone.dra/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/RedStrobeLight" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://github.com/AlondraSanchez" target="_blank"><i class="fa fa-github"></i></a></li>
+                                <li><a href="https://www.instagram.com/keethze/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                        <p class="text-center">
+                            <a class="btn btn-primary btn-custom" href="https://drive.google.com/file/d/1pPoeDqGW0AIJLq05-1y8BMwMP_3utoPJ/view" target="_blank"><i class="fa fa-download"></i> Descargar CV</a>
+                            <a class="btn btn-primary btn-custom" href="#">Mi llave p&uacute;blica</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <div class="section-title text-center center">
+                <h2>Mis hobbies</h2>
+                <hr>
+            </div>
+            <!--
+                <div class="categories">
+                <ul class="cat">
+                    <li>
+                        <ol class="type">
+                            <li><a href="#" data-filter="*" class="active">Todo</a></li>
+                            <li><a href="#" data-filter=".draw">Dibujo</a></li>
+                            <li><a href="#" data-filter=".game">Videojuegos</a></li>
+                            <li><a href="#" data-filter=".other">Otros</a></li>
+                        </ol>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+            -->
+            <div class="row">
+                <div class="portfolio-items">
+
+                    <div class="col-sm-6 col-md-3 col-lg-3 draw">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a href="img/portfolio/dibujo-large.png" title="&nbsp; Me gusta dibujar de forma tradicional utilizando papel y lápiz." rel="prettyPhoto">
+                                    <div class="hover-text">
+                                        <h4>Dibujo tradicional</h4>
+                                        <small>Dibujo</small> </div>
+                                    <img src="img/portfolio/dibujo-small.jpg" class="img-responsive" </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-3 game">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a href="img/portfolio/minecraft-large.png" title="&nbsp; Minecraft es de mis juegos favoritos, disfruto jugandolo en solitario así como con amigos" rel="prettyPhoto">
+                                    <div class="hover-text">
+                                        <h4>Minecraft</h4>
+                                        <small>Videojuegos</small> </div>
+                                    <img src="img/portfolio/minecraft-small.jpg" class="img-responsive"> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-3 draw">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a href="img/portfolio/dibujo-digital-large.png" title="&nbsp; Me gusta el dibujo digital y utilizo una tableta gr&aacute;fica para ello." rel="prettyPhoto">
+                                    <div class="hover-text">
+                                        <h4>Dibujo digital</h4>
+                                        <small>Dibujo</small> </div>
+                                    <img src="img/portfolio/dibujo-digital-small.jpg" class="img-responsive"> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-3 game">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a href="https://youtu.be/udmy4tqmehE" title="&nbsp; Desde peque&ntilde;a me ha gustado jugar Guitar Hero, pero ahora que no tengo una consola donde jugar, juego a un sustituto llamado Clone Hero" rel="prettyPhoto">
+                                    <div class="hover-text">
+                                        <h4>Clone Hero/Guitar Hero</h4>
+                                        <small>Videojuedos</small> </div>
+                                    <img src="img/portfolio/clone-hero-small.png" class="img-responsive"> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-3 other">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <a href="img/portfolio/anime-large.png" title="&nbsp; Me gusta ver anime. Mi genero favorito es el de 'chicas m&aacute;gicas'." rel="prettyPhoto">
+                                    <div class="hover-text">
+                                        <h4>Anime</h4>
+                                        <small>Otros</small> </div>
+                                    <img src="img/portfolio/anime-small.png" class="img-responsive"> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Resume Section -->
+    <div id="resume" class="text-center">
+        <div class="container">
+            <div class="section-title center">
+                <h2>Formaci&oacute;n acad&eacute;mica</h2>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+
+                        <!-- Education Section-->
+
+                        <li>
+                            <div class="timeline-image">
+                                <h4>2018 <br> - <br> Hoy </h4>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Escuela Superior de C&oacute;mputo</h4>
+                                    <h4 class="subheading">Ing. en Sistemas Computacionales</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Actualmente estoy cursando el sexto semestre.</p>
+                                    <p class="text-muted">Soy beneficiaria de la Beca de Estímulo Institucional de Formación de Investigadores (BEIFI) desde febrero de 2019.</p>
+                                    <p class="text-muted">Tengo un promedio general de 9.11</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>2014 <br> - <br> 2017 </h4>
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Centro de Estudios Cient&iacute;ficos y Tecnol&oacute;gicos No. 9 Juan de Dios B&aacute;tiz</h4>
+                                    <h4 class="subheading">T&eacute;cnico en Programaci&oacute;n</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Obtuve un promedio general de 8.11</p>
+                                    <p class="text-muted">Titulaci&oacute;n en proceso.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Section -->
+    <div id="contact" class="text-center">
+        <div class="container">
+            <div class="col-md-8 col-md-offset-2">
+
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container text-center">
+            <div class="fnav">
+                <p>Copyright &copy; 2016 John Doe. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/easypiechart.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.js"></script>
+    <script type="text/javascript" src="js/jquery.counterup.js"></script>
+    <script type="text/javascript" src="js/waypoints.js"></script>
+    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+    <script type="text/javascript" src="js/contact_me.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
