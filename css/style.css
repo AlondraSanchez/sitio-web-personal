@@ -540,7 +540,6 @@ ol.type li a:hover {
 /* Resume Section */
 
 #resume {
-    padding: 100px 0;
     background: #f6f6f6;
 }
 
@@ -667,9 +666,9 @@ ol.type li a:hover {
 /* Contact Section */
 
 #contact {
-    padding: 100px 0 40px 0;
+    padding: 0 0 40px 0;
     color: var(--color-121d1f);
-    background: var(--color-f4f5f6);
+    background: var(--color-fff);
 }
 
 #contact h2 {
@@ -954,4 +953,8 @@ a:focus,
     width: 230px;
     border: none;
     background: none;
+}
+
+.hide-input {
+    display: none;
 }
